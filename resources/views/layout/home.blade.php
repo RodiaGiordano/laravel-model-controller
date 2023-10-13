@@ -21,11 +21,11 @@
           
         <div class="card" style="width: 18rem;">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">{{$movie->title}}</li>
-            <li class="list-group-item">{{$movie->original_title}}</li>
-            <li class="list-group-item">{{$movie->nationality}}</li>
-            <li class="list-group-item">{{$movie->date}}</li>
-            <li class="list-group-item">{{$movie->vote}}</li>
+            <li class="list-group-item"><span>Titolo: </span>{{$movie->title}}</li>
+            <li class="list-group-item"><span>Titolo originale: </span>{{$movie->original_title}}</li>
+            <li class="list-group-item"><span>Nazionalità: </span>{{$movie->nationality}}</li>
+            <li class="list-group-item"><span>Data pubblicazione: </span>{{$movie->date}}</li>
+            <li class="list-group-item"><span>Voto medio: </span>{{$movie->vote}}</li>
           </ul>
         </div>
       @endforeach
